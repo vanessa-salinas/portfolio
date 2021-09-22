@@ -733,6 +733,7 @@ a {
 
 .link-block-2 {
   margin-top: 40px;
+  text-decoration: none;
 }
 
 .div-block-5 {
@@ -749,6 +750,10 @@ a {
 
 .div-block-7 {
   position: relative;
+}
+
+.image-3 {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
