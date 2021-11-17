@@ -722,6 +722,7 @@ a {
 }
 
 .image-2 {
+  width: 100%;
   margin-bottom: 10px;
   -o-object-fit: fill;
   object-fit: fill;
