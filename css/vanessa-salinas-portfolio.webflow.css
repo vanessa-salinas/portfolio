@@ -778,6 +778,7 @@ a {
 
 .link-block-2 {
   margin-top: 40px;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -804,6 +805,55 @@ a {
 
 .columns-2 {
   display: none;
+}
+
+.lightbox-link {
+  width: 100%;
+  text-decoration: none;
+}
+
+.image-4 {
+  width: 100%;
+}
+
+.sticky-contact-scroll-indicator {
+  position: static;
+  top: 20px;
+  width: auto;
+  height: auto;
+  margin-right: 0px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: right;
+}
+
+.scroll-down {
+  margin-right: 5px;
+  margin-left: auto;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.scroll-text {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  margin-left: 0px;
+  font-size: 14px;
+}
+
+.scroll-link-black {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1279,6 +1329,18 @@ a {
   .image-div {
     width: 100%;
     margin-top: 40px;
+  }
+
+  .sticky-contact-scroll-indicator {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
   }
 }
 
