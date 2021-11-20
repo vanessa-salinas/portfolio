@@ -776,7 +776,7 @@ a {
   margin-left: 10px;
 }
 
-.link-block-2 {
+.backlink {
   display: inline-block;
   margin-top: 40px;
   text-align: center;
@@ -817,12 +817,13 @@ a {
   width: 100%;
 }
 
-.sticky-contact-scroll-indicator {
+.scroll-indicator {
   position: static;
   top: 20px;
   width: auto;
   height: auto;
   margin-right: 0px;
+  margin-bottom: 10px;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
@@ -1339,11 +1340,11 @@ a {
     margin-top: 40px;
   }
 
-  .link-block-2 {
-    display: none;
+  .backlink {
+    display: inline-block;
   }
 
-  .sticky-contact-scroll-indicator {
+  .scroll-indicator {
     position: relative;
     top: 0px;
     width: 100%;
