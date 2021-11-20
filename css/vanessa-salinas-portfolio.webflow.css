@@ -777,6 +777,7 @@ a {
 }
 
 .link-block-2 {
+  display: inline-block;
   margin-top: 40px;
   text-align: center;
   text-decoration: none;
@@ -852,6 +853,13 @@ a {
 .scroll-link-black {
   margin-top: 0px;
   margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.backmobile {
+  display: none;
+  margin-top: 40px;
   text-align: center;
   text-decoration: none;
 }
@@ -1331,6 +1339,10 @@ a {
     margin-top: 40px;
   }
 
+  .link-block-2 {
+    display: none;
+  }
+
   .sticky-contact-scroll-indicator {
     position: relative;
     top: 0px;
@@ -1341,6 +1353,14 @@ a {
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .scroll-link-black {
+    display: none;
+  }
+
+  .backmobile {
+    display: inline-block;
   }
 }
 
