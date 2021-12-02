@@ -522,6 +522,10 @@ a {
   background-image: url('../images/PUD-UI-Design.jpg');
 }
 
+.work1.work-dch-menu {
+  background-image: url('../images/dch-menu-thumb.jpg');
+}
+
 .work-link-block {
   width: 80%;
   margin-top: 60px;
@@ -862,6 +866,10 @@ a {
   display: none;
   margin-top: 40px;
   text-align: center;
+  text-decoration: none;
+}
+
+.file-link {
   text-decoration: none;
 }
 
