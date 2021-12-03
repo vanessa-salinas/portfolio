@@ -873,6 +873,15 @@ a {
   text-decoration: none;
 }
 
+.list-item {
+  margin-bottom: 20px;
+}
+
+.list {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     position: relative;
