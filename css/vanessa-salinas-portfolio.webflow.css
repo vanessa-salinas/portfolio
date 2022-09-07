@@ -534,6 +534,14 @@ a {
   background-image: url('../images/dallas-365-landing-pag-thumb.jpg');
 }
 
+.work1.work-jca {
+  background-image: url('../images/jca-holistic-fair-web-design.jpg');
+}
+
+.work1.work-hr-audit {
+  background-image: url('../images/department-audits.jpg');
+}
+
 .work-link-block {
   width: 470px;
   height: auto;
