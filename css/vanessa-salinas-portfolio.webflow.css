@@ -167,10 +167,10 @@ a {
 .hero-heading-one {
   color: #2e3193;
   text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-transform: none;
   font-family: Signika, sans-serif;
-  font-size: 64px;
+  font-size: 82px;
   font-weight: 600;
   line-height: 90px;
 }
@@ -916,7 +916,7 @@ a {
   }
 
   .hero-heading-one {
-    font-size: 42px;
+    font-size: 50px;
     line-height: 48px;
   }
 
@@ -1044,7 +1044,8 @@ a {
   }
 
   .hero-heading-one {
-    font-size: 30px;
+    margin-bottom: 0;
+    font-size: 34px;
     line-height: 36px;
   }
 
