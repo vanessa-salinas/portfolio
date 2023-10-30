@@ -177,11 +177,12 @@ a {
 }
 
 .hero-heading-one {
-  width: 50%;
+  width: 70%;
   color: var(--dark-slate-blue);
   text-align: left;
   letter-spacing: 1px;
   text-transform: none;
+  margin-right: 60px;
   font-family: Signika, sans-serif;
   font-size: 68px;
   font-weight: 600;
@@ -559,7 +560,7 @@ a {
 }
 
 .intro-div {
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -886,12 +887,12 @@ a {
 }
 
 .div-block-8 {
-  width: 550px;
+  width: 600px;
   height: 600px;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 0;
+  margin-right: 0;
   padding: 0;
   position: relative;
 }
@@ -905,7 +906,7 @@ a {
   width: 320px;
   position: absolute;
   top: 110px;
-  left: 180px;
+  left: 130px;
 }
 
 .image-7 {
@@ -913,7 +914,7 @@ a {
   position: absolute;
   top: auto;
   bottom: 0%;
-  left: 0;
+  left: -40px;
   right: 0%;
   transform: translate(0, 90px);
 }
@@ -971,7 +972,8 @@ a {
   .hero-heading-one {
     width: 100%;
     text-align: left;
-    font-size: 50px;
+    margin-right: 20px;
+    font-size: 44px;
     line-height: 48px;
   }
 
@@ -1085,9 +1087,10 @@ a {
   }
 
   .div-block-8 {
+    width: 510px;
     height: 360px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .image-5 {
@@ -1102,6 +1105,7 @@ a {
 
   .image-7 {
     width: 200px;
+    left: -10px;
   }
 }
 
@@ -1114,8 +1118,8 @@ a {
   .hero {
     background-image: none;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .hero-content {
@@ -1124,6 +1128,7 @@ a {
 
   .hero-heading-one {
     margin-bottom: 0;
+    margin-right: 10px;
     font-size: 34px;
     line-height: 36px;
   }
@@ -1223,7 +1228,7 @@ a {
   }
 
   .div-block-8 {
-    width: 450px;
+    width: 400px;
     height: 270px;
   }
 
@@ -1254,8 +1259,10 @@ a {
 
   .hero {
     background-image: none;
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-bottom: 0;
   }
 
@@ -1269,6 +1276,7 @@ a {
   .hero-heading-one {
     text-align: center;
     margin-bottom: 0;
+    margin-right: 0;
     font-size: 28px;
     line-height: 34px;
   }
@@ -1500,6 +1508,7 @@ a {
 
   .image-7 {
     width: 180px;
+    left: 0;
   }
 }
 
