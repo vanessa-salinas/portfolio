@@ -155,7 +155,7 @@ a {
   object-fit: fill;
   background-color: rgba(0, 0, 0, 0);
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-self: flex-start;
   align-items: center;
   margin: 40px 100px 0;
@@ -556,8 +556,8 @@ a {
 .intro-paragraph {
   color: var(--black);
   margin-top: 20px;
-  font-size: 20px;
-  line-height: 34px;
+  font-size: 22px;
+  line-height: 40px;
 }
 
 .intro-div {
@@ -893,12 +893,14 @@ a {
 
 .div-block-8 {
   width: 600px;
-  height: 670px;
+  height: 750px;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0;
+  justify-content: space-between;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
+  display: block;
   position: relative;
 }
 
@@ -910,7 +912,7 @@ a {
 .image-6 {
   width: 320px;
   position: absolute;
-  top: 150px;
+  top: 210px;
   left: 160px;
 }
 
@@ -925,7 +927,7 @@ a {
 }
 
 .div-block-9 {
-  width: 70%;
+  width: 60%;
 }
 
 @media screen and (max-width: 991px) {
@@ -982,8 +984,8 @@ a {
     width: 100%;
     text-align: left;
     margin-right: 20px;
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 40px;
+    line-height: 44px;
   }
 
   .hero-heading-two {
@@ -1096,7 +1098,7 @@ a {
   }
 
   .div-block-8 {
-    width: 510px;
+    width: 300px;
     height: 360px;
     margin-left: 0;
     margin-right: 0;
@@ -1108,7 +1110,7 @@ a {
 
   .image-6 {
     width: 190px;
-    top: 60px;
+    top: 100px;
     left: 90px;
   }
 
@@ -1118,7 +1120,8 @@ a {
   }
 
   .div-block-9 {
-    width: 100%;
+    width: 50%;
+    margin-right: 40px;
   }
 }
 
@@ -1240,8 +1243,13 @@ a {
     width: 8%;
   }
 
+  .subtitle.hero-area {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
   .div-block-8 {
-    width: 400px;
+    width: 230px;
     height: 320px;
   }
 
@@ -1251,13 +1259,18 @@ a {
 
   .image-6 {
     width: 160px;
-    top: 70px;
+    top: 100px;
     left: 60px;
   }
 
   .image-7 {
     width: 200px;
     left: -50px;
+  }
+
+  .div-block-9 {
+    width: 60%;
+    margin-right: 0;
   }
 }
 
@@ -1291,7 +1304,7 @@ a {
     text-align: center;
     margin-bottom: 0;
     margin-right: 0;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 34px;
   }
 
@@ -1510,6 +1523,10 @@ a {
     display: none;
   }
 
+  .subtitle.hide-hero-text {
+    display: block;
+  }
+
   .div-block-8 {
     width: 300px;
     height: 300px;
@@ -1521,13 +1538,17 @@ a {
 
   .image-6 {
     width: 200px;
-    top: 40px;
+    top: 70px;
     left: 100px;
   }
 
   .image-7 {
     width: 200px;
     left: -20px;
+  }
+
+  .div-block-9 {
+    width: 100%;
   }
 }
 
