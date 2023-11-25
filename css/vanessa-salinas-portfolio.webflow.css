@@ -514,6 +514,14 @@ a {
   background-image: url('../images/department-audits.jpg');
 }
 
+.work1.boardscommissions {
+  background-image: url('../images/boards-and-commissions-cover.jpg');
+}
+
+.work1.fuelgroup {
+  background-image: url('../images/fuel-group-trading-cover.jpg');
+}
+
 .work-link-block {
   width: 550px;
   height: auto;
@@ -893,7 +901,7 @@ a {
 
 .div-block-8 {
   width: 600px;
-  height: 750px;
+  height: 600px;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0;
   justify-content: space-between;
@@ -907,12 +915,13 @@ a {
 .image-5 {
   width: 250px;
   position: absolute;
+  top: 40px;
 }
 
 .image-6 {
   width: 320px;
   position: absolute;
-  top: 210px;
+  top: 120px;
   left: 160px;
 }
 
@@ -920,10 +929,9 @@ a {
   width: 410px;
   position: absolute;
   top: auto;
-  bottom: 0%;
+  bottom: -650px;
   left: -40px;
   right: 0%;
-  transform: translate(0, 120px);
 }
 
 .div-block-9 {
@@ -1099,23 +1107,26 @@ a {
 
   .div-block-8 {
     width: 300px;
-    height: 360px;
+    height: 400px;
     margin-left: 0;
     margin-right: 0;
   }
 
   .image-5 {
     width: 130px;
+    top: 70px;
   }
 
   .image-6 {
     width: 190px;
-    top: 100px;
+    top: 110px;
     left: 90px;
   }
 
   .image-7 {
     width: 230px;
+    display: none;
+    bottom: -150px;
     left: -40px;
   }
 
@@ -1265,6 +1276,7 @@ a {
 
   .image-7 {
     width: 200px;
+    bottom: -130px;
     left: -50px;
   }
 
@@ -1529,16 +1541,17 @@ a {
 
   .div-block-8 {
     width: 300px;
-    height: 300px;
+    height: 250px;
   }
 
   .image-5 {
     width: 140px;
+    top: 0;
   }
 
   .image-6 {
     width: 200px;
-    top: 70px;
+    top: 40px;
     left: 100px;
   }
 
