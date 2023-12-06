@@ -545,6 +545,10 @@ a {
   background-image: url('../images/HOU-Cover.jpg');
 }
 
+.work1.workoem {
+  background-image: url('../images/OEM-Cover.jpg');
+}
+
 .work-link-block {
   width: 550px;
   height: auto;
@@ -1599,7 +1603,7 @@ a {
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-cfa1d536-a4cc-e5a8-e64f-7905b71a799b-a058ecf9 {
+#w-node-cfa1d536-a4cc-e5a8-e64f-7905b71a799b-a058ecf9, #w-node-cfa1d536-a4cc-e5a8-e64f-7905b71a799b-f1295a01 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
