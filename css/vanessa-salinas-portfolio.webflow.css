@@ -172,7 +172,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-self: flex-start;
-  align-items: center;
+  align-items: flex-end;
   margin: 90px 100px 0;
   padding-bottom: 0;
   display: flex;
@@ -965,6 +965,10 @@ a {
 
 .div-block-9 {
   width: 70%;
+  min-height: 420px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
 }
 
 .image-8 {
@@ -1179,6 +1183,7 @@ a {
 
   .div-block-9 {
     width: 60%;
+    min-height: 270px;
     margin-right: 10px;
   }
 }
@@ -1192,6 +1197,7 @@ a {
   .hero {
     background-image: none;
     flex-direction: column;
+    align-items: center;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -1337,6 +1343,7 @@ a {
 
   .div-block-9 {
     width: 90%;
+    min-height: 0;
     text-align: center;
     margin-right: 0;
   }
