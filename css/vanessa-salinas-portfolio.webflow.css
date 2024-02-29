@@ -619,9 +619,11 @@ a {
 }
 
 .intro-div {
+  z-index: 10;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .div-block-3 {
@@ -1145,6 +1147,22 @@ a {
   line-height: 70px;
 }
 
+.animate-bg {
+  z-index: 5;
+  opacity: .15;
+  mix-blend-mode: multiply;
+  background-image: url('../images/ComputerLoopCrop.gif');
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  background-attachment: scroll;
+  position: absolute;
+  top: 10px;
+  bottom: 0%;
+  left: 0%;
+  right: 10px;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     position: relative;
@@ -1428,6 +1446,10 @@ a {
   .hero-text-v2 {
     margin-bottom: 40px;
   }
+
+  .animate-bg {
+    background-size: auto 20%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1676,6 +1698,10 @@ a {
     grid-row-gap: 10px;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .animate-bg {
+    background-size: auto 10%;
   }
 }
 
