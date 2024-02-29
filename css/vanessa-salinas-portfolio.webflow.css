@@ -227,8 +227,8 @@ a {
 }
 
 .intro-section {
-  background-color: var(--grey-white);
   color: var(--black);
+  background-color: rgba(0, 24, 249, .05);
   padding-top: 80px;
   padding-bottom: 60px;
   position: relative;
@@ -236,10 +236,10 @@ a {
 }
 
 .intro-section.contact-section {
-  background-color: var(--black);
+  background-color: rgba(0, 24, 249, .05);
   background-image: none;
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   position: relative;
 }
 
@@ -669,7 +669,7 @@ a {
 }
 
 .paragraph-contact {
-  color: var(--white);
+  color: var(--black);
   margin-top: 20px;
   font-size: 24px;
   line-height: 34px;
@@ -683,15 +683,17 @@ a {
 
 .div-block-2-contact {
   color: #fff;
-  margin-left: 10px;
+  margin-left: 15px;
   display: inline-block;
   position: relative;
   top: 5px;
 }
 
 .link-block-text-contact {
-  color: #fff;
+  color: var(--primary);
   margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 700;
   text-decoration: underline;
 }
 
@@ -818,6 +820,7 @@ a {
 }
 
 .image-3 {
+  width: 48px;
   text-decoration: none;
 }
 
@@ -1410,6 +1413,11 @@ a {
     line-height: 90px;
   }
 
+  .hero-text.contact-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
   .quick-stack-2 {
     grid-column-gap: 40px;
     grid-row-gap: 10px;
@@ -1460,7 +1468,12 @@ a {
   }
 
   .intro-section {
-    padding: 20px 20px 80px;
+    padding: 40px 20px 80px;
+  }
+
+  .intro-section.contact-section {
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 
   .wave-divider {
@@ -1548,6 +1561,14 @@ a {
     overflow: auto;
   }
 
+  .div-block-2-contact {
+    margin-left: 10px;
+  }
+
+  .link-block-text-contact {
+    font-size: 20px;
+  }
+
   .portfolio-section {
     margin-left: 40px;
     margin-right: 40px;
@@ -1559,6 +1580,10 @@ a {
 
   .div-block-6 {
     width: 8%;
+  }
+
+  .image-3 {
+    width: 40px;
   }
 
   .subtitle {
@@ -1639,6 +1664,11 @@ a {
   .hero-text {
     font-size: 60px;
     line-height: 70px;
+  }
+
+  .hero-text.contact-title {
+    font-size: 50px;
+    line-height: 60px;
   }
 
   .quick-stack-2 {
@@ -1873,6 +1903,10 @@ a {
     display: inline-block;
   }
 
+  .image-3 {
+    width: 34px;
+  }
+
   .scroll-indicator {
     width: 100%;
     height: auto;
@@ -1965,6 +1999,11 @@ a {
     -webkit-text-stroke-width: 2px;
     margin-bottom: 10px;
     font-size: 30px;
+    line-height: 40px;
+  }
+
+  .hero-text.contact-title {
+    font-size: 34px;
     line-height: 40px;
   }
 
