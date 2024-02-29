@@ -1132,6 +1132,16 @@ a {
   align-items: center;
 }
 
+.hero-text-v2 {
+  color: var(--primary);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     position: relative;
@@ -1394,7 +1404,7 @@ a {
   }
 
   .hero-text {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: 80px;
     font-weight: 900;
     line-height: 90px;
@@ -1405,6 +1415,10 @@ a {
     grid-row-gap: 10px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .hero-text-v2 {
+    margin-bottom: 40px;
   }
 }
 
@@ -1949,7 +1963,7 @@ a {
 
   .hero-text {
     -webkit-text-stroke-width: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -1963,6 +1977,12 @@ a {
 
   .cell-3 {
     align-items: flex-start;
+  }
+
+  .hero-text-v2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 30px;
   }
 }
 
