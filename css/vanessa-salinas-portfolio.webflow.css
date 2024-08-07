@@ -564,6 +564,14 @@ a {
   background-image: url('../images/OEM-Cover.jpg');
 }
 
+.work1.dch-refresh-home-2024 {
+  background-image: url('../images/dch-refresh-2024-thumb.jpg');
+}
+
+.work1.dch-newsroom-2024 {
+  background-image: url('../images/dch-newsroom-thumb.jpg');
+}
+
 .work-link-block {
   text-align: left;
   flex: 0 4 auto;
@@ -1148,7 +1156,7 @@ a {
 }
 
 .hero-title-block {
-  width: 85%;
+  width: 70%;
   margin: 60px auto;
 }
 
