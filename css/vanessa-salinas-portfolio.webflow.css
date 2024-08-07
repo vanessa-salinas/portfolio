@@ -223,8 +223,8 @@ a {
 .intro-section {
   color: var(--black);
   background-color: #0018f90d;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-top: 0;
+  padding-bottom: 40px;
   position: relative;
   overflow: auto;
 }
@@ -255,7 +255,7 @@ a {
 }
 
 .about-div {
-  width: 80%;
+  width: 100%;
 }
 
 .wave-divider {
@@ -1149,7 +1149,8 @@ a {
 }
 
 .hero-title-block {
-  width: 100%;
+  width: 85%;
+  margin: 60px auto;
 }
 
 @media screen and (max-width: 991px) {
