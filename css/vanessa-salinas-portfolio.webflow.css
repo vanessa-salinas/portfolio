@@ -1308,11 +1308,7 @@ a {
     overflow: auto;
   }
 
-  .intro-div {
-    width: 95%;
-  }
-
-  .div-block-3 {
+  .intro-div, .div-block-3 {
     width: 90%;
   }
 
@@ -1447,7 +1443,7 @@ a {
   }
 
   .hero-title-block {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -1863,7 +1859,11 @@ a {
     line-height: 26px;
   }
 
-  .intro-div, .div-block-3 {
+  .intro-div {
+    width: 95%;
+  }
+
+  .div-block-3 {
     width: 100%;
   }
 
