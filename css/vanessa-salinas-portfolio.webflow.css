@@ -1,9 +1,9 @@
 :root {
   --black: #040720;
   --primary: #0018f9;
+  --white: white;
   --grey-white: #f2f3f4;
   --accent: #f99723;
-  --white: white;
   --color\<deleted\|variable-3bf8f82b-1365-6ae4-d658-ba2c9a00f619\>: #fff0;
   --secondary: #3ca100;
 }
@@ -145,9 +145,15 @@ a {
   color: var(--primary);
 }
 
-.nav-link, .nav-link.w--current {
+.nav-link {
   color: var(--black);
   font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-link.w--current {
+  color: var(--black);
+  font-size: 19px;
   font-weight: 700;
 }
 
@@ -324,7 +330,7 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  padding: 40px;
+  padding: 40px 40px 30px;
   display: flex;
   position: relative;
   overflow: auto;
@@ -622,6 +628,7 @@ a {
 .intro-div {
   z-index: 10;
   width: 80%;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -1137,7 +1144,7 @@ a {
 .hero-text-v2 {
   color: var(--primary);
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: none;
   font-family: Lato, sans-serif;
   font-size: 60px;
   font-weight: 900;
@@ -1158,7 +1165,7 @@ a {
 }
 
 .hero-title-block {
-  width: 70%;
+  width: 90%;
   margin: 100px auto 60px;
 }
 
@@ -1188,20 +1195,13 @@ a {
     font-size: 26px;
   }
 
-  .nav-menu {
-    background-color: var(--primary);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
   .nav-link {
-    color: #fff;
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 20px;
   }
 
   .nav-link.w--current {
-    color: #fff;
     text-decoration: none;
   }
 
@@ -1334,7 +1334,12 @@ a {
     overflow: auto;
   }
 
-  .intro-div, .div-block-3 {
+  .intro-div {
+    width: 90%;
+    margin-top: 60px;
+  }
+
+  .div-block-3 {
     width: 90%;
   }
 
@@ -1460,8 +1465,9 @@ a {
   }
 
   .hero-text-v2 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 50px;
+    line-height: 60px;
   }
 
   .animate-bg {
@@ -1495,6 +1501,17 @@ a {
   .logo-heading {
     margin-top: 0;
     font-size: 26px;
+  }
+
+  .nav-menu {
+    background-color: var(--primary);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+  }
+
+  .nav-link {
+    color: var(--white);
   }
 
   .hero {
@@ -1609,6 +1626,7 @@ a {
 
   .intro-div {
     width: 90%;
+    margin-top: 40px;
   }
 
   .div-block-3 {
@@ -1751,7 +1769,7 @@ a {
   .hero-text-v2 {
     margin-bottom: 20px;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 48px;
   }
 
   .animate-bg {
@@ -1931,6 +1949,7 @@ a {
 
   .intro-div {
     width: 90%;
+    margin-top: 20px;
   }
 
   .div-block-3 {
@@ -2123,8 +2142,8 @@ a {
 
   .hero-text-v2 {
     margin-bottom: 20px;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 38px;
   }
 
   .animate-bg {
