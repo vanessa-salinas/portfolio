@@ -294,8 +294,8 @@ a {
 }
 
 .grid {
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
   grid-template: "Area"
   / 1fr 1fr 1fr;
   grid-auto-flow: column;
@@ -324,7 +324,7 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  padding: 40px 20px 20px;
+  padding: 40px;
   display: flex;
   position: relative;
   overflow: auto;
@@ -621,7 +621,7 @@ a {
 
 .intro-div {
   z-index: 10;
-  width: 85%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -1159,7 +1159,7 @@ a {
 
 .hero-title-block {
   width: 70%;
-  margin: 60px auto;
+  margin: 100px auto 60px;
 }
 
 .hero-text-copy {
@@ -1267,6 +1267,7 @@ a {
   }
 
   .grid {
+    grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
 
@@ -1469,6 +1470,7 @@ a {
 
   .hero-title-block {
     width: 90%;
+    margin-top: 60px;
   }
 
   .hero-text-copy {
@@ -1540,7 +1542,8 @@ a {
   }
 
   .grid {
-    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: "Area";
     grid-auto-flow: row;
@@ -1861,7 +1864,7 @@ a {
   }
 
   .grid {
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
   }
 
