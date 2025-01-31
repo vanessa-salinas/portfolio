@@ -420,10 +420,6 @@ a {
   background-image: url('../images/Lose-Yourself-Logo-Design.jpg');
 }
 
-.work1.work-dfr {
-  background-image: url('../images/Dallas-Fire-Rescue.jpg');
-}
-
 .work1.work-peak {
   background-image: url('../images/peak-energy-tech.jpg');
 }
@@ -540,8 +536,8 @@ a {
   background-image: url('../images/City-Council-Attendance-thumb.jpg');
 }
 
-.work1.work-dallas365 {
-  background-image: url('../images/dallas-365-landing-pag-thumb.jpg');
+.work1.work-dfr {
+  background-image: url('../images/dfr-thumb.jpg');
 }
 
 .work1.work-jca {
@@ -568,8 +564,8 @@ a {
   background-image: url('../images/HOU-Cover.jpg');
 }
 
-.work1.workoem {
-  background-image: url('../images/OEM-Cover.jpg');
+.work1.work-council-districts {
+  background-image: url('../images/council-districts-thumb.jpg');
 }
 
 .work1.dch-refresh-home-2024 {
@@ -2204,7 +2200,7 @@ a {
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-cfa1d536-a4cc-e5a8-e64f-7905b71a799b-a058ecf9, #w-node-cfa1d536-a4cc-e5a8-e64f-7905b71a799b-f1295a01 {
+#w-node-cfa1d536-a4cc-e5a8-e64f-7905b71a799b-a058ecf9 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
