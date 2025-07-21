@@ -408,7 +408,7 @@ a {
   background-size: cover;
   border-radius: 20px;
   width: auto;
-  height: 550px;
+  height: 350px;
   margin-bottom: 20px;
 }
 
@@ -541,7 +541,7 @@ a {
 }
 
 .work1.work-jca {
-  background-image: url('../images/jca-holistic-fair-web-design.jpg');
+  background-image: url('../images/jca-cover.jpg');
 }
 
 .work1.work-hr-audit {
@@ -574,6 +574,10 @@ a {
 
 .work1.dch-newsroom-2024 {
   background-image: url('../images/dch-newsroom-thumb.jpg');
+}
+
+.work1.resilientdallas {
+  background-image: url('../images/resilient-dallas-thumb.jpg');
 }
 
 .work-link-block {
@@ -762,7 +766,7 @@ a {
 
 .image-2 {
   object-fit: fill;
-  background-color: #000;
+  background-color: #0000001a;
   width: 100%;
   margin-bottom: 40px;
   padding: 20px;
@@ -906,7 +910,7 @@ a {
 .resources-div {
   text-align: left;
   align-self: stretch;
-  width: 70%;
+  width: 100%;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -1190,6 +1194,10 @@ a {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+
+.project-desc {
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 991px) {
