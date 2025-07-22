@@ -2,9 +2,9 @@
   --black: #040720;
   --primary: #0018f9;
   --white: white;
-  --grey-white: #f2f3f4;
   --accent: #f99723;
   --color\<deleted\|variable-3bf8f82b-1365-6ae4-d658-ba2c9a00f619\>: #fff0;
+  --grey-white: #f2f3f4;
   --secondary: #3ca100;
 }
 
@@ -157,20 +157,6 @@ a {
   font-weight: 700;
 }
 
-.header {
-  background-image: url('../images/3d-hero-elements.png'), linear-gradient(to top, var(--grey-white), white);
-  background-position: 100%, 0 0;
-  background-repeat: no-repeat, repeat;
-  background-size: contain, auto;
-  flex-flow: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  height: auto;
-  margin-top: 10px;
-  padding-bottom: 80px;
-  display: flex;
-}
-
 .hero {
   object-fit: fill;
   background-color: #0000;
@@ -261,20 +247,6 @@ a {
 
 .about-div {
   width: 100%;
-}
-
-.wave-divider {
-  background-image: url('../images/linear-divider-grey.svg');
-  background-position: 50% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 150px;
-}
-
-.wave-divider.wave-color-purple {
-  background-image: url('../images/linear-divider-dark-purple.svg');
-  background-position: 50% 100%;
-  background-size: cover;
 }
 
 .div-block-2 {
@@ -380,7 +352,7 @@ a {
 .print-work-section {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 60px;
 }
 
@@ -408,52 +380,16 @@ a {
   background-size: cover;
   border-radius: 20px;
   width: auto;
-  height: 350px;
+  height: 400px;
   margin-bottom: 20px;
-}
-
-.work1.work-cod-annual-report {
-  background-image: url('../images/Annual-Report.jpg');
-}
-
-.work1.work-lose-yourself {
-  background-image: url('../images/Lose-Yourself-Logo-Design.jpg');
-}
-
-.work1.work-peak {
-  background-image: url('../images/peak-energy-tech.jpg');
 }
 
 .work1.work-approved-to-print {
   background-image: url('../images/approved-to-print-thumb-2021.jpg');
 }
 
-.work1.work-mimis {
-  background-image: url('../images/mimis-nail-creations-logo.jpg');
-}
-
-.work1.work-personal-pest {
-  background-image: url('../images/Personal-Pest_1.jpg');
-}
-
 .work1.work-dallas-ideas-web {
   background-image: url('../images/Dallas-Ideas-Website.jpg');
-}
-
-.work1.mood-boards-dallasgov {
-  background-image: url('../images/mood-boards-dallasgov-thumbs.jpg');
-}
-
-.work1.work-opendata {
-  background-image: url('../images/resilient-dallas-thumb.jpg');
-}
-
-.work1.work-dch-mobile {
-  background-image: url('../images/Dallas-City-Hall-Responsive-Homepage.jpg');
-}
-
-.work1.work-financial-transparency {
-  background-image: url('../images/Financial-Transparency.jpg');
 }
 
 .work1.work-tablecloth {
@@ -464,28 +400,12 @@ a {
   background-image: url('../images/Dallas-Bond.jpg');
 }
 
-.work1.work-child-perfume-sample {
-  background-image: url('../images/Child-Perfume-Sample-Cards.jpg');
-}
-
-.work1.work-hwv-email {
-  background-image: url('../images/Highway-West-Vacations-Email.jpg');
-}
-
-.work1.work-la-creme-package {
-  background-image: url('../images/La-Creme-Packaging.jpg');
-}
-
 .work1.work-la-creme-labels {
   background-image: url('../images/La-Creme-Label-Tags.jpg');
 }
 
-.work1.work-oasis-logo {
-  background-image: url('../images/Oasis-Logo.jpg');
-}
-
-.work1.work-folded-business-card {
-  background-image: url('../images/folded-business-cards.jpg');
+.work1.actitan {
+  background-image: url('../images/ac-titan-cover.jpg');
 }
 
 .work1.bubbly-cloth-logo {
@@ -496,32 +416,8 @@ a {
   background-image: url('../images/legends-indian-springs-brochure.jpg');
 }
 
-.work1.work-la-creme-truck {
-  background-image: url('../images/La-Creme-Semi-Truck-Wrap.jpg');
-}
-
-.work1.work-trilan-business-card {
-  background-image: url('../images/Trilan-Business-Cards.jpg');
-}
-
-.work1.work-jefferson-dedham-station {
-  background-image: url('../images/Jefferson-Dedham-Station-Booklet.jpg');
-}
-
 .work1.work-moni-shirts {
   background-image: url('../images/Moni-Music-Fest-Shirt-and-Concepts.jpg');
-}
-
-.work1.work-bearded-bandito {
-  background-image: url('../images/Bearded-Bandito.jpg');
-}
-
-.work1.work-jpt-car-wrap {
-  background-image: url('../images/JPT-Van-Wrap.jpg');
-}
-
-.work1.work-alderwood-heights {
-  background-image: url('../images/Alderwood-Heights-Brochure.jpg');
 }
 
 .work1.work-pud {
@@ -530,10 +426,6 @@ a {
 
 .work1.work-dch-menu {
   background-image: url('../images/dch-menu-thumb.jpg');
-}
-
-.work1.work-council-attendance {
-  background-image: url('../images/City-Council-Attendance-thumb.jpg');
 }
 
 .work1.work-dfr {
@@ -549,7 +441,7 @@ a {
 }
 
 .work1.boardscommissions {
-  background-image: url('../images/boards-and-commissions-cover.jpg');
+  background-image: url('../images/boards-commissions-cover.jpg');
 }
 
 .work1.fuelgroup {
@@ -561,7 +453,7 @@ a {
 }
 
 .work1.workhou {
-  background-image: url('../images/HOU-Cover.jpg');
+  background-image: url('../images/housing-cover.jpg');
 }
 
 .work1.work-council-districts {
@@ -570,10 +462,6 @@ a {
 
 .work1.dch-refresh-home-2024 {
   background-image: url('../images/dch-refresh-2024-thumb.jpg');
-}
-
-.work1.dch-newsroom-2024 {
-  background-image: url('../images/dch-newsroom-thumb.jpg');
 }
 
 .work1.resilientdallas {
@@ -587,7 +475,7 @@ a {
   align-self: auto;
   width: 550px;
   height: auto;
-  margin-top: 60px;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
@@ -785,7 +673,10 @@ a {
 .content-div {
   flex-direction: column;
   justify-content: space-between;
+  width: 90%;
   height: 100%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Figtree, sans-serif;
   display: flex;
 }
@@ -917,7 +808,7 @@ a {
 }
 
 .project-header {
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1570,10 +1461,6 @@ a {
     padding-bottom: 50px;
   }
 
-  .wave-divider {
-    min-height: 60px;
-  }
-
   .icon-div {
     margin-top: 20px;
     overflow: auto;
@@ -1888,10 +1775,6 @@ a {
     margin-top: 0;
     font-size: 16px;
     line-height: 26px;
-  }
-
-  .wave-divider {
-    min-height: 50px;
   }
 
   .div-block-2 {
