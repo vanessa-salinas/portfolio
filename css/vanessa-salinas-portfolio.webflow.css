@@ -476,6 +476,14 @@ a {
   background-image: url('../images/ocpo-cover.jpg');
 }
 
+.work1.dch-talent-central {
+  background-image: url('../images/talent-central-thumb.jpg');
+}
+
+.work1.its-intranet {
+  background-image: url('../images/its-intranet-thumb.jpg');
+}
+
 .work-link-block {
   text-align: left;
   flex: 0 4 auto;
